@@ -1,3 +1,10 @@
+/* 基本的な設定 */
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* 経歴 */
 .timeline {
     list-style: none;
 }
@@ -23,7 +30,7 @@
     .timeline-content {
         width: 75%;
         float: left;
-        border-left: 3px #e5e5d1 solid;
+        border-left: 3px #c2d6df solid;
         padding-left: 30px;
     }
 
@@ -31,10 +38,75 @@
         content: '';
         width: 12px;
         height: 12px;
-        background: #6fc173;
+        background: #64a9be;
         position: absolute;
         left: 106px;
         top: 24px;
         border-radius: 100%;
     }
+}
+
+/* 趣味カード */
+.card-wrapper {
+    display: flex;
+    justify-content: space-around
+}
+
+.l-wrapper_06 {
+    width: 40%;
+}
+
+.l-wrapper_06:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 34px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+    transition: all .5s;
+}
+
+.card_06 {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.card-img_06 {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content_06 {
+    padding: 8px 20px 20px;
+}
+
+.card-title_06 {
+    font-size: 1.6em;
+    color: #333;
+    font-weight: 700;
+}
+
+.card-text_06 {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0.2em;
+}
+
+.card-link_06 {
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding: 20px;
+}
+
+.card-link_06 a {
+    text-decoration: none;
+    color: #4f96f6;
+    margin: 0 10px;
+}
+
+.card-link_06 a:hover {
+    color: #6bb6ff;
+}
+
+.card-content_06 p {
+    margin-bottom: 0;
 }
