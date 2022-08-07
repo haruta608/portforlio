@@ -7,26 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ポートフォリオ</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
 </head>
 
 <body>
     <div class="main">
         <header>
-            <ul class="menu-list">
-                <li>Home</li>
-                <li>Introduction</li>
-                <li>History</li>
-                <li>Hobby</li>
-                <li>Dream</li>
-            </ul>
+            <nav>
+                <ul class="menu-list">
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li><a href="#dream">Dream</a></li>
+                </ul>
+            </nav>
         </header>
         <div class="container">
-            <div class="home" id="home">
-                <h1>Mori Haruna</h1>
-            </div>
             <!-- 自己紹介 -->
             <div class="introduction">
-                <p class="birthday">2002年3月8日・神奈川県・青山学院大学社会情報学部3年</p>
+                <div class="intro-wrapper">
+                    <h1>Mori Haruna</h1>
+                    <p class="birthday">2002年3月8日・神奈川県</p>
+                    <p>青山学院大学社会情報学部社会情報学科3年</p>
+                </div>
+                <div class="intro-img">
+                    <div class="img-container">
+                        <div class="img-wrap">
+                            <img src="img/square.png" alt="" class="circle-img circle-img1">
+                        </div>
+                        <div class="img-wrap">
+                            <img src="img/square.png" alt="" class="circle-img circle-img2">
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <div class="img-wrap">
+                            <img src="img/square.png" alt="" class="circle-img circle-img3">
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- 経歴 -->
             <div class="history" id="history">
@@ -59,28 +78,39 @@
                         <p class="timeline-date">2022年3月</p>
                         <div class="timeline-content">
                             <h3>ITベンチャー企業で長期インターンを始める</h3>
-                            <img src="sample.png" alt="">
-                            <p>あああああ</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="timeline-date">2022年4月</p>
-                        <div class="timeline-content">
-                            <h3>ダブルダッチに対して本気になる</h3>
-                            <img src="sample.png" alt="">
+                            <img src="img/sample.png" alt="">
                             <p>あああああ</p>
                         </div>
                     </li>
                 </ul>
             </div>
-
+            <!-- インターンについて -->
+            <div class="experience" id="experience">
+                <h2 class="menu-title">インターンで行ってきたこと</h2>
+                <div class="experience-wrapper">
+                    <ul>
+                        <li>
+                            <p>デモサイトの作成</p>
+                            <p>aaaaaa</p>
+                        </li>
+                        <li>
+                            <p>デモサイトの作成</p>
+                            <p>aaaaaa</p>
+                        </li>
+                        <li>
+                            <p>デモサイトの作成</p>
+                            <p>aaaaaa</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <!-- 趣味 -->
             <div class="hobby" id="hobby">
                 <h2 class="menu-title">Hobby</h2>
                 <div class="card-wrapper">
                     <div class="l-wrapper_06">
                         <div class="card_06">
-                            <img class="card-img_06" src="sample.png" alt="">
+                            <img class="card-img_06" src="img/sample.png" alt="">
                             <div class="card-content_06">
                                 <p class="card-title_06">邦楽Rock</p>
                                 <p class="card-text_06">WebデザインやWebサイト制作、最新のWeb業界情報などを紹介していくサイト。<br>しっかりきっかり更新中。</p>
@@ -92,7 +122,7 @@
                     </div>
                     <div class="l-wrapper_06">
                         <div class="card_06">
-                            <img class="card-img_06" src="sample.png" alt="">
+                            <img class="card-img_06" src="img/sample.png" alt="">
                             <div class="card-content_06">
                                 <p class="card-title_06">ダブルダッチ</p>
                                 <p class="card-text_06">WebデザインやWebサイト制作、最新のWeb業界情報などを紹介していくサイト。<br>しっかりきっかり更新中。</p>
